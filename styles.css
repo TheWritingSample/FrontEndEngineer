@@ -301,3 +301,69 @@ footer .social-links img {
 .pricing-item h3 {
     margin-top: 0;
 }
+
+/* Blog Section */
+#blog {
+    padding: 4rem 0;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.blog-post {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.blog-post h3 {
+    margin: 0.5rem 0;
+}
+
+.blog-post p {
+    color: #666;
+}
+
+.blog-post span {
+    display: block;
+    margin-top: 1rem;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+/* Blog Post Section */
+#blog-post {
+    padding: 4rem 0;
+}
+
+#blog-post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+#blog-post .back-button {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2rem;
+}
